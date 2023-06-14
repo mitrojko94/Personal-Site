@@ -288,3 +288,51 @@ input:checked + .slider::before {
   font-size: 30px;
   margin-right: 5px;
 }
+
+@media (max-width: 500px) {
+  nav {
+    width: 100%;
+    letter-spacing: 1px;
+  }
+
+  .theme-switch-wrapper {
+    position: absolute;
+    top: 20vw;
+    right: 20px;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .image-container2 {
+    margin-top: 20px;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttons button {
+    margin: 10px;
+  }
+}
