@@ -293,12 +293,18 @@ input:checked + .slider::before {
   nav {
     width: 100%;
     letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  .title-group {
+    font-size: 15px;
   }
 
   .theme-switch-wrapper {
     position: absolute;
     top: 20vw;
     right: 20px;
+    font-size: 15px;
   }
 
   .about-container {
@@ -309,13 +315,13 @@ input:checked + .slider::before {
   }
 
   .image-container img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
   }
 
   .image-container2 {
     margin-top: 20px;
-    font-size: medium;
+    font-size: small;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,5 +340,13 @@ input:checked + .slider::before {
 
   .buttons button {
     margin: 10px;
+  }
+
+  #projects h1 {
+    font-size: 15px;
+  }
+
+  .text-box p {
+    font-size: 15px;
   }
 }
