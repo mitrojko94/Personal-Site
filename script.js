@@ -8,9 +8,7 @@ const textBox = document.getElementById("text-box");
 
 // Dark or Light Images
 function imageMode(color) {
-  image1.src = `img/1_${color}.jpg`;
-  image2.src = `img/2_${color}.jpg`;
-  image3.src = `img/3_${color}.jpg`;
+  image1.src = `img/maja_${color}.jpg`;
 }
 
 // Dark Mode Styles
